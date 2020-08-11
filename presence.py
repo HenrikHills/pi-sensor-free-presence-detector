@@ -35,7 +35,7 @@ def whosHere(i):
 
         # Exits thread if Keyboard Interrupt occurs
         if stop == True:
-            print "Exiting Thread"
+            print ("Exiting Thread")
             exit()
         else:
             pass
@@ -91,7 +91,6 @@ def whosHere(i):
 # Main thread
 
 try:
-
     # Initialize a variable to trigger threads to exit when True
     global stop
     stop = False
